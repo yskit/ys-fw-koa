@@ -1,0 +1,10 @@
+{
+  "name": "ys-fw-koa-test",
+  "version": "1.0.0",
+  "description": "ys-mutify framework for koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=dev DEBUG=* node test/index.js -- --access=dev",
+    "post": "npm publish --access=public"
+  }
+}

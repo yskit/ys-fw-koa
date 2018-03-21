@@ -1,0 +1,21 @@
+{
+  "name": "ys-fw-koa",
+  "version": "1.0.4",
+  "description": "ys-mutify framework for koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=dev node test/index.js -- --access=dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:yskit/ys-fw-koa.git"
+  },
+  "devDependencies": {
+    "ys-mutify": "^1.0.0"
+  },
+  "dependencies": {
+    "koa": "^2.5.0",
+    "ys-loader": "^1.0.0",
+    "ys-utils": "^1.0.8"
+  }
+}
