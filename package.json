@@ -1,6 +1,6 @@
 {
   "name": "ys-fw-koa",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "ys-mutify framework for koa",
   "main": "index.js",
   "scripts": {
