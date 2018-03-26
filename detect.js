@@ -14,4 +14,7 @@ module.exports = options => {
   if (!fs.existsSync(appDir)) {
     throw new Error(`miss '${appDir}' dir when framework detecting`);
   }
+  if (!options.fetch_default_timeout) {
+    options.fetch_default_timeout = 3000;
+  }
 }

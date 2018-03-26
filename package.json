@@ -1,6 +1,6 @@
 {
   "name": "ys-fw-koa",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "ys-mutify framework for koa",
   "main": "index.js",
   "scripts": {
@@ -18,6 +18,7 @@
     "koa-static-cache": "^5.1.2",
     "request": "^2.85.0",
     "ys-loader": "^1.0.2",
+    "ys-middleware-router": "^1.0.1",
     "ys-utils": "^1.0.13"
   }
 }
