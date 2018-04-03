@@ -17,4 +17,7 @@ module.exports = options => {
   if (!options.fetch_default_timeout) {
     options.fetch_default_timeout = 3000;
   }
+
+  if (!options.service) options.service = {};
+  if (!options.service.port) options.service.port = 8080;
 }
