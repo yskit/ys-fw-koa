@@ -20,4 +20,7 @@ module.exports = options => {
 
   if (!options.server) options.server = {};
   if (!options.server.port) options.server.port = 8080;
+  if (!options.cookie) options.cookie = {};
+  if (!options.cookie.type) options.cookie.type = 'sha256';
+  if (!options.cookie.keys) options.cookie.keys = ['koa-cookie-set-key', 'koa-cookie-set-value'];
 }
